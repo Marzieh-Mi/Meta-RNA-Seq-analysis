@@ -22,11 +22,11 @@ Utilizing DESeq2 and RankProd.
 4. MDS visualization
 5. Exploratory analysis of gene expression
 
-## Tools:
+## 2. Tools:
 - R (DESeq2, RankProd)
 
 
-## Related Repositorie:
+## 3. Related Repositorie:
 Downstream functional analysis (GO, promoter, miRNA)
 
 
