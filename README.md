@@ -26,6 +26,17 @@ Utilizing DESeq2 and RankProd.
 - R (DESeq2, RankProd)
 
 
-Related Repositorie:
+## Related Repositorie:
 Downstream functional analysis (GO, promoter, miRNA)
 
+
+```mermaid
+graph TD
+    A[Multi-study Count Matrices] --> B(CPM/TPM Normalization)
+    B --> C{Batch Effect Detection}
+    C --> D[PCA Plot]
+    C --> E[MDS Plot]
+    C --> F[Boxplots]
+    G -- Yes --> H[ComBat / limma removeBatchEffect]
+    G -- No --> I[Proceed to Meta-Analysis]
+    H --> I
