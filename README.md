@@ -37,6 +37,7 @@ graph TD
     C --> D[PCA Plot]
     C --> E[MDS Plot]
     C --> F[Boxplots]
+    D & E & F --> G{Correction Needed?}
     G -- Yes --> H[ComBat / limma removeBatchEffect]
     G -- No --> I[Proceed to Meta-Analysis]
     H --> I
