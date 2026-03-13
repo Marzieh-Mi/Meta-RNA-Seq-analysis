@@ -17,9 +17,9 @@ Utilizing DESeq2 and RankProd.
 
 ## Steps included:
 1. CPM/TPM normalization
-2. PCA quality control
-3. Box plot quality control
-4. MDS visualization
+2. PCA plot
+3. MDS plot
+4. Box plot 
 5. Exploratory analysis of gene expression
 
 ## 2. Tools:
